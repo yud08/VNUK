@@ -18,6 +18,13 @@ vector<string> reading()
         ".......&....",
         ".......&...."      
     };
+    v.clear();
+    for (int i = 0; i <12; i++)
+    {
+        string str;
+        cin >> str;
+        v.push_back(str);
+    }
     return v;
 }
 
